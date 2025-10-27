@@ -1,0 +1,23 @@
+{
+    "name": "BootcampAI Env C++ Codespace",    
+    "image": "mcr.microsoft.com/devcontainers/cpp:latest",
+    
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "formulahendry.code-runner",
+                "ms-vscode.cpptools" // Recomendada para C++
+            ]
+        },
+        "codespaces": {
+            "openFiles": [
+                "excercise.cpp"
+            ]
+        }
+    },
+    "settings": {
+        "code-runner.runInTerminal": true
+    },
+
+    "remoteUser": "vscode"
+}
